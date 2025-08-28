@@ -78,18 +78,23 @@ curl -F "file=@/path/to/Report.pdf" \
 }
 
 ```
+## 📸 Demo
+Here’s how the Financial Document Analyzer looks in action:
+
+![Demo Screenshot](<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2be30b07-fa42-4ed1-9b17-aedb95853f8f" />
+)
 
 ## 📌 Next Steps (Ideas)
 
 Add a database (Postgres) to store analysis history
 
-Extend tools for balance sheet / risk analysis
+Extend tools for balance sheet/risk analysis
 
 Integrate Celery + Redis for async processing
 
 ## 🧑‍💻 Author
 
-# Built and Debug with ❤️ by Aditya Mishra
+Built and Debug with ❤️ by Aditya Mishra
 
 
 
