@@ -78,10 +78,6 @@ curl -F "file=@/path/to/Report.pdf" \
 }
 
 ```
-## 📸 Demo
-Here’s how the Financial Document Analyzer looks in action:
-
-![Demo Screenshot]("C:\Users\adity\Downloads\demo.png")
 
 ## 📌 Next Steps (Ideas)
 
