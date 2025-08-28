@@ -52,3 +52,37 @@ CREWAI_MODEL=gpt-4o
 OPENAI_API_KEY=your_openai_key
 OPENAI_MODEL=gpt-4o
 ```
+
+## ▶️ Run the Server
+```bah
+uvicorn main:app --reload --port 8000
+```
+
+## 📤 Usage Example
+
+# Upload a PDF and ask a query:
+```bash
+curl -F "file=@/path/to/Report.pdf" \
+     -F "query=Summarize key financial highlights" \
+     http://localhost:8000/analyze
+```
+
+# Response (JSON):
+```bash
+{
+  "status": "success",
+  "file_processed": "Report.pdf",
+  "query": "Summarize key financial highlights",
+  "analysis": "...",
+  "extracted_text_snippet": "..."
+}
+
+```
+
+## 📌 Next Steps (Ideas)
+
+Add a database (Postgres) to store analysis history
+
+Extend tools for balance sheet / risk analysis
+
+Integrate Celery + Redis for async processing
