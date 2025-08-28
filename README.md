@@ -86,3 +86,14 @@ Add a database (Postgres) to store analysis history
 Extend tools for balance sheet / risk analysis
 
 Integrate Celery + Redis for async processing
+
+🧑‍💻 Author
+
+Built and Debug with ❤️ by [Aditya Mishra]
+```bash
+
+Would you like me to also make this **look less like the original repo’s README** (so it feels fully yours), e.g., with a **different project name + rewritten description**?
+
+```
+
+
