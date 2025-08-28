@@ -89,7 +89,7 @@ Integrate Celery + Redis for async processing
 
 ## 🧑‍💻 Author
 
-# Built and Debug with ❤️ by [Aditya Mishra]
+# Built and Debug with ❤️ by Aditya Mishra
 
 
 
