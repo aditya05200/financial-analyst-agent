@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 ```
 ## ⚙️ Environment Setup
-
+```bash
 Create a .env file in the project root:
 
 # Option 1: CrewAI
@@ -50,3 +50,4 @@ CREWAI_MODEL=gpt-4o
 # Option 2: OpenAI (through CrewAI wrapper)
 OPENAI_API_KEY=your_openai_key
 OPENAI_MODEL=gpt-4o
+```
