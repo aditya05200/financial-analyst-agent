@@ -12,6 +12,7 @@ A FastAPI-based service that analyzes financial PDF reports using AI-powered age
 ---
 
 ## 📂 Project Structure  
+```bash
 .
 ├── main.py # FastAPI entry point
 ├── agents.py # AI agents configuration
@@ -23,7 +24,7 @@ A FastAPI-based service that analyzes financial PDF reports using AI-powered age
 
 
 ---
-
+```
 ## 🛠️ Installation  
 
 ```bash
